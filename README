@@ -7,7 +7,8 @@ The dataset is not provided with the code because of the size restrictions in ou
 
 There are certain details about where the dataset must be stored.
 For knn and k-means clustering it can be stored in a directory next to the project's directory named 'CS383_datasets'; this is because in those scripts refer the dataset directory as '../CS383_datasets/'. 
-For SVM and Decision trees however, the dataset needs to be in the same directory as the scripts themselves.
+
+For SVM and Decision trees however, given the root of this project being 'CS383-FinalProject/' the dataset needs to be under 'CS383-FinalProject/datasets/' and named 'train.csv'
 
 This project requires the following dependencies:
 	pandas
